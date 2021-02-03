@@ -40,5 +40,12 @@ alter table t1 add column v2 double;
 删除列
 alter table t1 drop column v2;
 
-##查询
+######################查询######################
+获取当前所在数据库
+show database();
+
+获取服务器版本号和客户端版本号
+select server_version();
+select client_version();
+
 
