@@ -19,6 +19,12 @@ drop database dbname;
 使用数据库
 use dbname;
 
+查看数据库中的超级表，必须先使用use dbname指定数据库
+show stables;
+
+查看超级表结构信息
+describe meters;
+
 查看数据库中的表，必须先使用use dbname指定数据库
 show tables;
 
